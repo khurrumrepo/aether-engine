@@ -1,0 +1,9 @@
+mesh cluster_production_node :: {
+    node_id := 0xCAFEBABE_CLI,
+    security := ZK_PROVE_SHA256_STRICT,
+    bandwidth := 10GB
+}
+
+exec ProductionDeployment {
+    Deploy(cluster_production_node)
+}

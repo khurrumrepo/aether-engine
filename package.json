@@ -1,0 +1,11 @@
+{
+  "name": "aether-lang",
+  "version": "1.0.0",
+  "description": "Industrial-Grade Distributed Cryptographic Programming Language",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
